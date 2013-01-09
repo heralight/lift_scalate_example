@@ -39,7 +39,7 @@ class Boot {
     // any ORM you want
     Schemifier.schemify(true, Schemifier.infoF _, User)
 
-val scalateView = new ScalateView
+    val scalateView = new ScalateView
     scalateView.register
 
     // where to search snippet
