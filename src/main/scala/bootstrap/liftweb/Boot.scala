@@ -12,7 +12,7 @@ import Loc._
 import mapper._
 
 import code.model._
-import net.liftmodules.JQueryModule
+//import net.liftmodules.JQueryModule
 import net.liftmodules.scalate.ScalateView
 
 
@@ -62,8 +62,8 @@ val scalateView = new ScalateView
 
     //Init the jQuery module, see http://liftweb.net/jquery for more information.
     LiftRules.jsArtifacts = JQueryArtifacts
-    JQueryModule.InitParam.JQuery=JQueryModule.JQuery172
-    JQueryModule.init()
+    //JQueryModule.InitParam.JQuery=JQueryModule.JQuery172
+    //JQueryModule.init()
 
     //Show the spinny image when an Ajax call starts
     LiftRules.ajaxStart =
